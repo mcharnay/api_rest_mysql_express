@@ -1,0 +1,45 @@
+///////////////////////////API REST CON NODE + EXPRESS +  MYSQL/////////////////////////////////////////
+
+
+//Se usó base de datos mysql de xampp.
+
+
+///////////////CREAR PACKAGE.JSON//////
+npm init -y
+Se cambió el main de package.json de index.js a app.js, y posteriormente se crea el app.js
+
+////////////INSTALAR DEPENDENCIA DE MYSQL///////////
+npm i mysql
+
+///////////INSTALAR EXPRESS Y NODEMON/////////
+instal dev = D (es de desarrollo)
+
+npm i -D express nodemon
+
+///////////////BODY-PARSER///////////////////////
+Es un middleware de express que permite abrir el cuerpo de una peetición, para después
+transformarlo a json.
+
+Para instalarlo:
+npm i body-parser
+
+/////////////CREACIÓN DE BD////////////////////
+Se creó bd en xampp, usando navicat para hacerlo más fácil
+creando bd llamada node_bd.
+
+/////USO DE POSTMAN PARA PROBAR EL ENDPOINT////
+
+Abrir una petición get y escribir la url http://localhost:3050, y mostrará la respuesta al endpoint.
+
+///////////SE CREARÁ UN CRUD///////////////////
+//PARA PROBRAR LOS ENDSPOINTS, SE USARÁ POSTMAN.
+Se hará una ruta(endpoint) para cada acción crud.
+Después de haber creado las rutas con los endpoints, se probarán en postman con su respectivo método.
+
+//////////CONSULTAS EN BD DENTRO DE LAS ROUTES/////////////////
+las consultas a la bd desde las ruotas se harán con sql nativo.
+
+
+
+
+
